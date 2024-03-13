@@ -1,6 +1,6 @@
 # Library Management System
 
-This Java program implements a simple library management system allowing users to manage books and users in a library. The system provides functionalities such as adding books and users, displaying all books in the library, borrowing and returning books, searching for books by various filters (title, author, genre), and checking books borrowed by a specific user.
+This Java program implements a simple library management system allowing users to manage books and users in a library. The system provides functionalities such as adding books and users, displaying all books in the library, borrowing and returning books, searching for books by various filters (title, author, genre), and checking books borrowed by a specific user. It permanently stores data in text files and transfers that data into arrays when any manipulation is needed.
 
 ## Features
 
@@ -28,4 +28,3 @@ This Java program implements a simple library management system allowing users t
 ## Note
 
 - The program utilizes text files (`librarybooks.txt` and `libraryusers.txt`) to store library data permanently. Ensure these files are present in the same directory as the Java files.
-- Modify file names or paths as needed if the files are stored in a different location.
